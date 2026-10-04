@@ -1,0 +1,18 @@
+{
+  "contracts/helloworld.sol": {
+    "__sources__": {
+      "contracts/helloworld.sol": {
+        "content": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.34;\n\ncontract HelloWorld {\n    // // message variable holding hello world\n    string public message = \"Hello, World!\";\n\n    // message variable getter function\n    function setMessage(string memory _message) public {\n        message = _message;\n    }\n\n    // message variable getter function\n    function getMessage() public view returns (string memory) {\n        return message;\n    }\n}\n",
+        "file": "contracts/helloworld.sol"
+      }
+    }
+  },
+  "/contracts/helloworld.sol": {
+    "__sources__": {
+      "/contracts/helloworld.sol": {
+        "content": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.34;\n\ncontract HelloWorld {\n    // // message variable holding hello world\n    string public message = \"Hello, World!\";\n\n    // message variable getter function\n    function setMessage(string memory _message) public {\n        message = _message;\n    }\n\n    // message variable getter function\n    function getMessage() public view returns (string memory) {\n        return message;\n    }\n}\n",
+        "file": "/contracts/helloworld.sol"
+      }
+    }
+  }
+}
